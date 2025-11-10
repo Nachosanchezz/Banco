@@ -1,0 +1,30 @@
+{
+  "prefix": "bbva",
+  "model_kind": "LSTM",
+  "timestamp": "2025-11-10_20-57-56",
+  "lookback": 60,
+  "n_features": 11,
+  "feature_cols": [
+    "Open",
+    "High",
+    "Low",
+    "Volume",
+    "Range",
+    "Return",
+    "MA_7",
+    "MA_30",
+    "Volatility_30",
+    "Body",
+    "evento_negativo"
+  ],
+  "params": 57217,
+  "split": {
+    "train_rows": 5284,
+    "valid_rows": 1321
+  },
+  "metrics": {
+    "rmse_valid": 0.1703914676691248,
+    "mae_valid": 0.11829661566713892,
+    "mape_valid": 1.5944916135998208
+  }
+}
